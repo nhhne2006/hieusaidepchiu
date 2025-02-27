@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .form-group{
+            display: flex;
+            margin-bottom: 5px;
+        }
+        .form-group label{
+            width: 160px;
+        }
+    </style>
+
+    <div class="form-group">
+        <label for="name">Họ và tên:</label>
+        <input type="fullname" id="name" name="name">
+    </div>
+
+    <div class="form-group">
+        <label for="datetime">Ngày sinh:</label>
+        <input type="date" id="datetime" name="datetime">
+    </div>
+
+    <div class="form-group">
+        <label >Giới tính:</label>
+        <input type="radio" id="nam" name="name" value="nam">
+        <label for="nam">Nam</label>
+
+        <input type="radio" id="nu" name="name" value="nu">
+        <label for="nu">Nữ</label>
+    </div>
+
+    <div class="form-group">
+        <label>Nơi cấp:</label>
+        <input type="text" id="noicap" name="noicap">
+    </div>
+
+    <div class="form-group">
+        <label for="phone">Số điện thoại:</label>
+        <input type="number" id="phone" name="phone">
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+    </div>
+
+    <div class="form-group">
+        <label for="diachi">Địa chỉ thường trú:</label>
+        <textarea name="diachi" id="diachi" rows="4" cols="20"></textarea>
+    </div>
+
+    <div class="form-group">
+        <label for="tamtru">Địa chỉ tạm trú:</label>
+        <textarea name="tamtru" id="tamtru" rows="3" cols="20"></textarea>
+    </div>
+
+    <div class="form-group">
+        <label >Loại căn cước công dân:</label>
+        <input type="radio" id="new" name="cccd" value="new">
+        <label for="new">Căn cước công dân mới</label>
+
+        <input type="radio" id="old" name="cccd" value="old">
+        <label for="old">Căn cước công dân cũ</label>
+    </div>
+
+    <div class="form-group">
+        <label for="dantoc">Dân tộc:</label>
+        <input type="text" id="dantoc" name="dantoc">
+    </div>
+
+    <div class="form-group">
+        <label for="tongiao">Tôn giáo:</label>
+        <input type="text" id="ton giao" name="tongiao">
+    </div>
+
+    <div class="form-group">
+        <label for="quoctich">Quốc tịch:</label>
+        <input type="text" id="quoctich" name="quoctich" value="Việt Nam">
+    </div>
+
+    <div class="form-group">
+        <label>số CMND/CCCD của cha/mẹ:</label>
+        <input type="number" id="cmnd" name="cmnd">
+    </div>
+
+    <div class="form-group">
+        <label >Tỉnh/Thành phố:</label>
+        <select name="city" id="city">
+            <option value="tinh" aria-placeholder="">Chọn Tỉnh/Thành Phố</option>
+            <option value="dongnai">Đồng Nai</option>
+            <option value="camau">Cà Mau</option>
+            <option value="dongthap">Đồng Tháp</option>
+        </select>
+    </div>
+    <button>Gửi thông tin</button>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        label{
+            display: inline-block;
+            width: 20%;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="get">
+        <label for="name">Họ và tên:</label>
+        <input type="fullname" id="name" name="name"><br>
+
+        <label for="datetime">Ngày sinh:</label>
+        <input type="date" id="datetime" name="datetime"><br>
+
+        <label>Giới tính:</label>
+        <input type="radio" name="sex" id="nam" value="nam">
+        <label style="width: 50px;"="nam">Nam</label>
+
+        <input type="radio" name="sex" id="nu" value="nu">
+        <label for="nu">Nữ</label><br>
+
+        <label for="phone">Số điện thoại:</label>
+        <input type="number" id="phone" name="phone"><br>
+
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email"><br>
+
+        <label for="city">Tên công ty:</label>
+        <input type="text" id="city" name="city"><br> 
+
+        <label for="vaitro">Vai trò trong công ty:</label>
+        <select name="vaitro" id="vaitro">
+            <option value="giamdoc" aria-placeholder="">Giám đốc điều hành (CEO)</option>
+            <option value="nhanvien">Nhân viên</option>
+            <option value="troly">Trợ lý</option>
+            <option value="khac">Khác</option>
+        </select><br>
+
+        <label >Quy mô công ty:</label>
+        <select name="quymo" id="quymo">
+            <option value="doanhnghiep" aria-placeholder="">Doanh nghiệp nhỏ</option>
+            <option value="big">Doanh nghiệp lớn</option>
+            <option value="tapdoan">Tập đoàn</option>
+            <option value="khac">Khác</option>
+        </select><br>
+
+        <label for="nghenghiep">Ngành nghề công ty:</label>
+        <input type="text" name="nghenghiep" id="nghenghiep"><br>
+
+        <label for="lydo">Lý do tham gia câu lạc bộ:</label>
+        <textarea name="lydo" id="lydo" rows="3" cols="20"></textarea><br>
+
+        <label for="exp">Kinh nghiệm lãnh đạo:</label>
+        <textarea name="exp" id="exp" rows="3" cols="20"></textarea><br>
+
+        <label for="muctieu">Mục tiêu khi tham gia câu lạc bộ:</label>
+        <textarea name="muctieu" id="muctieu" rows="3" cols="20"></textarea><br>
+
+        <label>Chương trình sự kiện mong muốn tham gia:</label>
+        <input type="checkbox" name="all" id="net" value="net">
+        <label style="width: 90px;"for="net">Networking</label>
+
+        <input type="checkbox" name="all" id="shop" value="shop">
+        <label style="width: 90px;" for="shop">Workshops</label>
+
+        <input type="checkbox" name="all" id="hoithao" value="hoithao">
+        <label for="hoithao">Hội Thảo</label><br>
+
+        <label for="dangki">Đăng kí nhận bản tin:</label>
+        <input type="checkbox" name="yes" id="yes" value="yes">
+        <label for="yes">Có</label><br>
+
+        <button>Đăng ký hội viên</button>
+
+
+
+        
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>

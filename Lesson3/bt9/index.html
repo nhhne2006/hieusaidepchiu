@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        label{
+            display: inline-block;
+            width: 10%;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="GET">
+        <label for="name">Họ và tên:</label>
+        <input type="fullname" id="name" name="name"><br>
+
+        <label for="datetime">Ngày sinh:</label>
+        <input type="date" id="datetime" name="datetime"><br>
+
+        <label>Giới tính</label>
+        <input type="radio" id="nam" name="sex" value="nam">
+        <label style="width: 50px;"for="nam">Nam</label>
+
+        <input type="radio" id="nu" name="sex" value="nu">
+        <label for="nu">Nữ</label><br>
+
+        <label for="phone">Số điện thoại:</label>
+        <input type="number" name="phone" id="phone"><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email"><br>
+
+        <label for="diachi">Địa chỉ:</label>
+        <textarea name="diachi" id="diachi" rows="3" cols="20"></textarea><br>
+
+        <label >Vai trò trong nhóm:</label>
+        <select name="group" id="group">
+            <option value="thanhvien" aria-placeholder="">Thành Viên</option>
+            <option value="hieu">Hoàng Hiệu</option>
+            <option value="hieuu">Hoàng Hiếu</option>
+            <option value="hieuuu">Hoàng Hiểu</option>
+        </select><br>
+        
+        <label for="favorite">Sở thích</label>
+        <input type="text" name="favorite" id="favorite"><br>
+
+        <label for="skill">Kỹ năng:</label>
+        <textarea name="skill" id="skill" rows="3" cols="20"></textarea><br>
+
+        <label>Thời gian rảnh:</label>
+        <input type="checkbox" id="sang" name="time" value="sang">
+        <label style="width: 50px;" for="sang">Sáng</label>
+
+        <input type="checkbox" id="chieu" name="time" value="chieu">
+        <label style="width: 50px;"for="chieu">Chiều</label>
+
+        <input type="checkbox" id="toi" name="time" value="toi">
+        <label for="toi">Tối</label><br>
+
+        <label for="mausac">Màu yêu thích</label>
+        <input type="color"><br>
+
+        <label>Đăng ký nhận bản tin:</label>
+        <input type="checkbox" id="dangki" name="dangki">
+        <label for="dangki">Có</label><br>
+
+        <label>Nhận thông báo qua email:</label>
+        <input type="radio" id="email" name="tinhnang" value="email">
+        <label style="width: 50px;"for="email">Email</label>
+
+        <input type="radio" id="sms" name="tinhnang" value="sms">
+        <label for="sms">SMS</label><br>
+        <button>Đăng ký thành viên</button>
+    </form>
+</body>
+</html>
