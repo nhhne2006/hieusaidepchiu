@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Document</title>
+
+    <style>
+        .groud{
+            text-align: center;
+            
+        }
+        img{
+            width: 150px; /* Đảm bảo chiều rộng bằng chiều cao */
+            height: 150px; /* Đảm bảo ảnh thành hình vuông */
+            border-radius: 50%; /* Bo tròn thành hình tròn */
+            object-fit: cover; /* Cắt ảnh để luôn giữ hình tròn */
+            display: block; /* Loại bỏ khoảng trắng dư thừa */
+            margin-left: 400px;
+            margin-top: 30px;
+            border: 5px solid rgb(75, 75, 228);
+        }
+
+        .text{
+            margin-left: 30px;
+            margin-top: 70px;
+            margin-bottom: 100px;
+        }
+        footer{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .navigation{
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div style="background-color: rgb(55, 52, 224); color: white; height: 120px;" class="navigation">
+            <h1 style="text-align: center;">GIỚI THIỆU BẢN THÂN</h1>
+            <div class="groud">
+                <b style="margin-right: 30px;">Home</b>
+                <b style="margin-right: 30px;">About</b>
+                <b style="margin-right: 30px;">Contact</b>
+            </div>
+        </div>
+
+        <div style="display: flex;">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.efey3gRwvO4ejsTp9WhpDgHaHI&pid=Api&P=0&h=180" alt="ảnh lỗi">
+            <div class="text">
+                <p>Xin chào! Tôi là TSUBASA, một lập trình viên đam mê học hỏi và sáng</p>
+                <p style="margin-top: -10px;">tạo.</p>
+            </div>
+        </div>
+
+        <footer style="text-align: center; background-color: rgb(235, 235, 235); height: 80px; ">
+            <p>&copy;2024 [Tên bạn]. Kết nối với tôi trên <a href="https://www.facebook.com/">Facebook</a> hoặc <a href="https://www.google.com.vn/">Linkedln</a></p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+        
+        .box{
+            background-color: rgb(243, 239, 239);
+            width: 300px;
+            padding: 10px;
+            border-radius: 10px; /* Bo góc */
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */
+        }
+
+        .box2{
+            background-color: white;
+            height: 380px;
+            width: 290px;
+            border-radius: 15px;
+            padding-top: 20px;
+        }
+
+        .fullbox{
+            margin-top: ;
+        }
+
+        h2{
+            text-align: center;
+        }
+
+        .text{
+            margin-left: 20px;
+            
+        }
+        button {
+            width: 92%;
+            padding: 10px;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        input{
+            width: 90%;
+            height: 30px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            
+        }
+        h2{
+            margin-left: -25px;
+        }
+

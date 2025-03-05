@@ -1,0 +1,58 @@
+.tieude{
+    color: white;
+}
+ 
+.nen1{
+    background-color: rgb(42, 173, 42);
+    text-align: center;
+    height: 110px;
+    flex-direction: column;
+    display: flex;
+    
+    
+
+}
+
+b{
+    margin-right: 10px;
+}
+a{
+    color: blue;
+}
+
+.text1{
+    margin-top: -10px;
+}
+
+.box{
+    background-color: rgb(240, 240, 240) ;
+    height: 500px;
+    width: 400px;
+    border: 2px solid rgb(133, 131, 131);
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.text2{
+    margin-left: 10px;
+}
+.text3{
+    margin-left: 20px;
+    width: 20px;
+}
+
+.text4{
+   margin-left: 20px
+}
+
+.boxcuoi{
+    background-color: rgb(111, 108, 108);
+    color: white;
+    text-align: center;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
