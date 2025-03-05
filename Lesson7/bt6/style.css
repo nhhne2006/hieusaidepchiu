@@ -1,0 +1,56 @@
+.icon1{
+    position: absolute;
+    left: 850px;
+    top: 25px;
+    font-size: 20px;
+
+}
+.icon2{
+    position: absolute;
+    left: 850px;
+    font-size: 20px;
+    top: 95px;
+
+}
+.icon3{
+    position: absolute;
+    left: 850px;
+    top: 370px;
+    font-size: 20px;
+}
+h2{
+    margin-left:20px;
+}
+.boxtong{
+    width: 60%;
+    position: relative;
+}
+.box1{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 7px 7px 0 0;
+    border: 2px solid rgb(230, 230, 230);
+}
+.box2{
+    background-color: aliceblue;
+    width: 100%;
+    margin-top: 0.5px;
+    border: 2px solid rgb(230, 230, 230);
+}
+.box3{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border: 2px solid rgb(230, 230, 230);
+}
+.box4{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border: 2px solid rgb(230, 230, 230);
+
+}
+.text1{
+    font-size: 20px;
+    text-align: justify; /* Dàn đều văn bản */
+    line-height: 1.6; /* Khoảng cách giữa các dòng */
+    margin: 20px; 
+}
