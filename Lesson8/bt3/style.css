@@ -1,0 +1,38 @@
+.box {
+    border-bottom: 5px solid orange;
+    width: 15%;
+    margin-left: 30px;
+}
+.box2 {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+.text1, .text2, .text3 {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    
+}
+ .text3 {
+    border-left: 1px solid #ccc; 
+    margin-right: 30px;
+    
+}
+.text2{
+    border-left: 1px solid #ccc;
+
+}
+
+button{
+    background-color: white;
+    color: red;
+    border: none;
+    border: 2px solid red;
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+
+}
+img{
+    border-radius: 7px;
+}

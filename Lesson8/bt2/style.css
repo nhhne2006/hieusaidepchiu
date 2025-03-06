@@ -1,0 +1,66 @@
+.boxtong{
+    background: linear-gradient(to bottom right, #667eea, #e4caff);
+    height: 350px;
+    width: 40%;
+    padding: 20px;
+    margin: 0 auto;  /* Căn giữa phần tử */
+    background: linear-gradient(to bottom right, #667eea, #e4caff);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
+}
+
+label{
+    color: white;
+    font-size: 16px;
+   
+
+}
+
+input, textarea {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 2px solid #d7d3d3;
+    background: linear-gradient(to bottom right, #667eea, #e4caff);
+}
+
+textarea {
+    height: 120px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: white;
+    color: rgb(85, 35, 90);
+    border: none;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 20px;
+    height: 50px;
+    width: 200px;
+    
+}
+
+.box1 {
+    display: flex;
+    margin-left: 20px;
+}
+
+.box2 {
+    width: 100%;
+    margin-left: 20px;
+}
+.textname{
+    margin-right: 60px;
+    width: 55%;
+}
+.textemail{
+    width: 55%;
+}

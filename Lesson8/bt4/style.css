@@ -1,0 +1,59 @@
+.boxtong1{
+    padding: 20px;
+}
+.boxtong2{
+    padding: 20px;
+}
+.box {
+    border-bottom: 3px solid rgb(248, 40, 40);
+    width: 12%;
+    margin-left: 45px;
+}
+img{
+    margin-left: 50px;
+    border: 2px solid rgb(190, 189, 189);
+    width: 100px ;
+    height: 100px;
+    transform: rotate(45deg);
+    margin-top: 40px;
+}
+.text1{
+    margin-left: 50px;
+    margin-top: -10px;
+    line-height: 1.5;
+    margin-right: 30px;
+}
+h4{
+    font-size: 20px;
+}
+.icon{
+    font-size: 50px;
+    color: pink;
+    position: absolute  ;
+    margin-left: 75px;
+    bottom: 60px;
+}
+.icon1{
+    font-size: 50px;
+    color: pink;
+    position: absolute  ;
+    margin-left: 75px;
+    bottom: 60px;
+
+}
+.icon2{
+    font-size: 50px;
+    color: pink;
+    position: absolute  ;
+    margin-left: 75px;
+    bottom: 60px;
+
+}
+.icon3{
+    font-size: 40px;
+    color: pink;
+    position: absolute  ;
+    margin-left: 75px;
+    bottom: 70px;
+
+}
