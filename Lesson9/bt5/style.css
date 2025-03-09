@@ -1,0 +1,16 @@
+button{
+    background-color: purple;
+    color: white;
+    width: 100px;
+    height: 50px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.button7{
+    margin-top: 10px;
+}
+.button8{
+    margin-top: 10px;
+    margin-left: 460px;
+}

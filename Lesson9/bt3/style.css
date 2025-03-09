@@ -1,0 +1,24 @@
+.boxtong{
+    background-color: rgb(229, 229, 229);
+    width: 70%;
+    height: 180px;
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+button{
+    background-color: rgb(32, 151, 236);
+    color: white;
+    width: 250px;
+    height: 80px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.button5{
+    width: 515px;
+}

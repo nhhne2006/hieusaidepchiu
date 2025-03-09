@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.boxtong {
+    background-color: rgb(237, 239, 240);
+    width: 30%;
+    height: 300px;
+    border: 2px solid black;
+    display: flex;           /* Sử dụng flexbox */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center;     /* Căn giữa theo chiều dọc */
+}
+
+.box1 {
+    background-color: rgb(74, 121, 208);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    position: relative;
+}
+.text1{
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    color: white;
+}
