@@ -1,0 +1,102 @@
+.box{
+    background-color: rgb(242, 246, 249);
+    width: 50%;
+    height: 520px;
+}
+.img1 {
+    display: flex;
+    justify-content: center; /* Căn giữa ảnh theo chiều ngang */
+    align-items: center; /* Căn giữa ảnh theo chiều dọc */
+    width: 100%; /* Đảm bảo phần tử cha có chiều rộng đủ lớn */
+    height: 100%; /* Đảm bảo phần tử cha có chiều cao đủ lớn */
+}
+.img1 img {
+    width: 900px;
+    height: 400px;
+    border-radius: 5px;
+    margin-top: -90px;
+    position: relative;
+}
+.nenden{
+    position: absolute;
+    width: 900px;
+    height: 400px;
+    margin-top: -504px;
+    margin-left: 26px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.6); 
+}
+.button1 button{
+    display: flex;
+    align-items: center;
+    width: 90px;
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    padding: 10px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Viền trắng với độ trong suốt */
+    color: rgb(245, 245, 245);
+    border-radius: 5px;
+    background-color: transparent; /* Không có nền */
+}
+.text{
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 30px;
+}
+.text p{
+    color: rgb(225, 223, 223);
+}
+.arrow1 button{
+    position: absolute;
+    background-color: rgb(42, 41, 41);
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+    width: 60px;
+    height: 40px;
+    top: 455px;
+    left: 850px;
+}
+.arrow2 button{
+    position: absolute;
+    background-color: rgb(42, 41, 41);
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+    width: 60px;
+    height: 40px;
+    top: 455px;
+    left: 540px;
+}
+.arrow1 button:hover, .arrow2 button:hover{
+    background-color: rgb(175, 175, 175);
+    color: rgb(255, 255, 255);
+    transition: all 0.3;
+}   
+.s1, .s2, .s3, .s4 {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+   
+}
+.s1:hover, .s2:hover, .s3:hover, .s4:hover{
+    background-color: black;
+    color: white;
+}
+.number{
+    position: absolute;
+    color: rgb(101, 101, 101);
+    font-size: 20px;
+    display: flex;
+    gap: 30px;
+    top: 460px;
+    left: 620px;
+}

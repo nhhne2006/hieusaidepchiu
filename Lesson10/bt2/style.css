@@ -1,0 +1,105 @@
+.box{
+    background-color: aliceblue;
+    width: 52.8%;
+    height: 400px;
+}
+h2{
+    padding: 10px;
+    padding-left: 20px;
+}
+.text1{
+    background-color: rgb(233, 231, 231);
+    width: 180px;
+    height: 80px;
+    border-radius: 5px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Impact', sans-serif;
+    font-size: 25px;
+}
+.text1 span {
+    background: linear-gradient(to top, rgb(210, 204, 204), black); /* Gradient từ trắng sang đen */
+    -webkit-background-clip: text; /* Cắt nền backgroud theo hình dạng của chữ  */
+    color: transparent; /* Làm màu chữ trở thành trong suốt */
+}
+.text2{
+    background-color: rgb(233, 231, 231);
+    width: 180px;
+    height: 127px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Impact', sans-serif;
+    font-size: 25px;
+}
+.text2 span {
+    background: linear-gradient(to top, rgb(210, 204, 204), black); /* Gradient từ trắng sang đen */
+    -webkit-background-clip: text; /* Cắt nền backgroud theo hình dạng của chữ  */
+    color: transparent; /* Làm màu chữ trở thành trong suốt */
+}
+.text3{
+    background-color: rgb(233, 231, 231);
+    width: 180px;
+    height: 80px;
+    border-radius: 5px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Impact', sans-serif;
+    font-size: 25px;
+}
+.text3 span {
+    background: linear-gradient(to top, rgb(210, 204, 204), black); /* Gradient từ trắng sang đen */
+    -webkit-background-clip: text; /* Cắt nền backgroud theo hình dạng của chữ  */
+    color: transparent; /* Làm màu chữ trở thành trong suốt */
+}
+.text4{
+    background-color: rgb(233, 231, 231);
+    width: 180px;
+    height: 80px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Impact', sans-serif;
+    font-size: 25px;
+}
+.text4 span {
+    background: linear-gradient(to top, rgb(210, 204, 204), black); /* Gradient từ trắng sang đen */
+    -webkit-background-clip: text; /* Cắt nền backgroud theo hình dạng của chữ  */
+    color: transparent; /* Làm màu chữ trở thành trong suốt */
+}
+.anh1 img{
+    width: 180px;
+    height: 200px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.anh2 img{
+    width: 180px;
+    height: 150px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.anh3 img{
+    width: 180px;
+    height: 200px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.anh4 img{
+    width: 180px;
+    height: 195px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
