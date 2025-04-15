@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box-all {
+            position: relative;
+            background-color: aliceblue;
+            width: 50%;
+            height: 400px;
+        }
+
+        .input {
+            display: flex;
+            width: 60px;
+            height: 40px;
+        }
+
+        .input input {
+            border-radius: 5px;
+            margin-left: 10px;
+            border: 2px solid rgb(179, 177, 177);
+        }
+
+        .input select {
+            border-radius: 5px;
+            margin-left: 10px;
+            border: 2px solid rgb(179, 177, 177);
+        }
+
+        .input button {
+            margin-left: 10px;
+            background-color: rgb(41, 73, 255);
+            color: white;
+            border-radius: 5px;
+            border: 2px solid rgb(179, 177, 177);
+        }
+
+        table {
+            width: 100%;
+        }
+
+        #chinhSua {
+            position: absolute;
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            background-color: #e8fce8;
+            width: 50%;
+            top: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        #chinhSua h2 {
+            margin-bottom: 20px;
+            color: #2b6e2b;
+        }
+
+        #chinhSua div {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+        }
+
+        #chinhSua input,
+        #chinhSua select {
+            padding: 8px;
+            border-radius: 5px;
+            border: 2px solid #ccc;
+            min-width: 150px;
+        }
+
+        #chinhSua input:focus,
+        #chinhSua select:focus {
+            border-color: #2b6e2b;
+            outline: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box-all">
+        <h2>Task Management</h2>
+        <div class="input">
+            <input type="text" placeholder="content" id="name">
+            <input type="date" id="date">
+            <select name="" id="status">
+                <option value="">Choose Status</option>
+                <option value="Pending">Pending</option>
+                <option value="Handle">Handle</option>
+                <option value="Done">Done</option>
+            </select>
+            <input type="text" id="phuTrach" placeholder="Usename">
+            <button id="summit">Summit</button>
+        </div>
+
+        <table border="1">
+
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Content</th>
+                    <th>Due date</th>
+                    <th>Status</th>
+                    <th>Assigend to</th>
+                    <th>Acction</th>
+                </tr>
+            </thead>
+
+            <tbody id="body">
+                <!-- <tr>
+                    <td>1</td>
+                    <td>Learn Javascript Session 01</td>
+                    <td>2023-04-17</td>
+                    <td>Pending</td>
+                    <td>Anh Bách</td>
+                    <td><button id="btn-sua" onclick="chinhSuaDanhSach(${index})">Sửa</button>  <button>Xóa</button></td>
+                </tr> -->
+            </tbody>
+
+        </table>
+    </div>
+
+
+    <div id="chinhSua">
+        <h2>Chỉnh sửa danh sách</h2>
+        <div>
+            <input type="text" placeholder="content" id="edit-name">
+            <input type="date" id="edit-date">
+            <select name="" id="edit-status">
+                <option value="">Choose Status</option>
+                <option value="Pending">Pending</option>
+                <option value="Handle">Handle</option>
+                <option value="Done">Done</option>
+            </select>
+            <input type="text" id="edit-phuTrach" placeholder="Usename">
+            <button id="btn-luu">Lưu</button>
+        </div>
+
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
