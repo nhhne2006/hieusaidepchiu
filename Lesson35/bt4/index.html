@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Danh sách nhân viên Rikkei</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 40%;
+        }
+        th, td {
+            padding: 8px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+        input {
+            padding: 5px;
+            margin: 5px;
+        }
+        h2{
+            margin-left: 70px;
+        }
+        #phanTrang button {
+            margin: 0 2px;
+            padding: 5px 10px;
+        }
+        #phanTrang {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Danh sách nhân viên Rikkei</h2>
+    <input type="text" id="tenNhanVien" placeholder="tên nhân viên">
+    <input type="text" id="chucVu" placeholder="chức vụ">
+    <button id="btnThem">thêm nhân viên</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>STT</th>
+                <th>Tên</th>
+                <th>Chức vụ</th>
+            </tr>
+        </thead>
+        <tbody id="bangNhanVien"></tbody>
+    </table>
+
+    <!-- ✅ Phần phân trang -->
+    <div id="phanTrang"></div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
